@@ -1,0 +1,17 @@
+//layout
+@use "./layout/header.scss";
+@use "./layout/footer.scss";
+//page
+@use "./pages/sign-up.scss";
+@use "./pages/sign-in.scss";
+@use "./pages/index.scss";
+@use "./pages/payment.scss";
+@use "./pages/collection.scss";
+@use "./pages/account.scss";
+//component
+@use "./component/button.scss";
+
+//common
+* {
+    box-sizing: border-box;
+}
