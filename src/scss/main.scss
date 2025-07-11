@@ -10,8 +10,16 @@
 @use "./pages/account.scss";
 //component
 @use "./component/button.scss";
+@use "./component/a.scss";
+@use "./component/reset.scss";
 
 //common
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
