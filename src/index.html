@@ -5,20 +5,717 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <%- include("./partials/header.ejs") %>
         <div class="main-wrapper">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias at, qui tempore, vel enim, facilis ab
-                quasi voluptatem eligendi recusandae aliquam consequatur pariatur alias ut tenetur perspiciatis
-                distinctio quae voluptatibus.</h1>
+            <div class="banner ">
+                <img src="/assets/images/big-banner.svg" alt="">
+            </div>
+<div class="row nut">
+  <div class="col svg-container"> 
+  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#FFF4F1"/>
+  </svg>
+
+  <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+  <path d="M36.6666 21.6666C36.4477 21.6667 36.2309 21.6236 36.0287 21.5399C35.8265 21.4561 35.6427 21.3334 35.4879 21.1786C35.3332 21.0238 35.2104 20.8401 35.1267 20.6378C35.0429 20.4356 34.9998 20.2188 34.9999 20V9.99996C34.9985 8.67432 34.4712 7.40339 33.5338 6.46602C32.5965 5.52866 31.3255 5.00141 29.9999 4.99996H9.9999C8.67426 5.00141 7.40333 5.52866 6.46596 6.46602C5.52859 7.40339 5.00135 8.67432 4.9999 9.99996V20C4.9999 20.442 4.8243 20.8659 4.51174 21.1785C4.19918 21.491 3.77526 21.6666 3.33323 21.6666C2.8912 21.6666 2.46728 21.491 2.15472 21.1785C1.84216 20.8659 1.66656 20.442 1.66656 20V9.99996C1.66916 7.79062 2.54797 5.67251 4.11021 4.11027C5.67245 2.54803 7.79056 1.66922 9.9999 1.66663H29.9999C32.2092 1.66922 34.3274 2.54803 35.8896 4.11027C37.4518 5.67251 38.3306 7.79062 38.3332 9.99996V20C38.3333 20.2188 38.2902 20.4356 38.2065 20.6378C38.1227 20.8401 38 21.0238 37.8452 21.1786C37.6904 21.3334 37.5067 21.4561 37.3044 21.5399C37.1022 21.6236 36.8855 21.6667 36.6666 21.6666Z" fill="#ED5A25"/>
+  <path d="M31.6666 38.3333H8.33323C7.8912 38.3333 7.46728 38.1577 7.15472 37.8452C6.84216 37.5326 6.66656 37.1087 6.66656 36.6667C6.66656 36.2246 6.84216 35.8007 7.15472 35.4882C7.46728 35.1756 7.8912 35 8.33323 35H31.6666C32.1086 35 32.5325 35.1756 32.8451 35.4882C33.1576 35.8007 33.3332 36.2246 33.3332 36.6667C33.3332 37.1087 33.1576 37.5326 32.8451 37.8452C32.5325 38.1577 32.1086 38.3333 31.6666 38.3333Z" fill="#ED5A25"/>
+  <path d="M28.5564 6.66663H11.4437C10.1655 6.6802 8.94474 7.20013 8.04924 8.11241C7.15374 9.02469 6.65656 10.2549 6.66672 11.5332V28.4668C6.65656 29.7451 7.15374 30.9752 8.04924 31.8875C8.94474 32.7998 10.1655 33.3197 11.4437 33.3333H28.5564C29.8346 33.3197 31.0554 32.7998 31.9509 31.8875C32.8464 30.9752 33.3435 29.7451 33.3334 28.4668V11.5332C33.3435 10.2549 32.8464 9.02469 31.9509 8.11241C31.0554 7.20013 29.8346 6.6802 28.5564 6.66663ZM26.1784 22.845L22.3568 26.6666C21.7314 27.2909 20.8838 27.6416 20.0001 27.6416C19.1163 27.6416 18.2687 27.2909 17.6433 26.6666L13.8217 22.845C13.5139 22.5315 13.3423 22.1091 13.3443 21.6698C13.3462 21.2304 13.5217 20.8096 13.8323 20.4989C14.143 20.1882 14.5638 20.0128 15.0032 20.0108C15.4425 20.0088 15.8649 20.1804 16.1784 20.4883L18.3334 22.6432V15C18.3334 14.5579 18.509 14.134 18.8215 13.8214C19.1341 13.5089 19.558 13.3333 20.0001 13.3333C20.4421 13.3333 20.866 13.5089 21.1786 13.8214C21.4911 14.134 21.6667 14.5579 21.6667 15V22.6432L23.8217 20.4882C24.1349 20.1789 24.5578 20.0061 24.9979 20.0075C25.4381 20.0089 25.8598 20.1844 26.171 20.4956C26.4823 20.8069 26.6577 21.2286 26.6591 21.6688C26.6605 22.1089 26.4877 22.5318 26.1784 22.845Z" fill="#ED5A25"/>
+</svg>
+  </svg>
+<div class="nut-title">Nạp rút nhanh chóng</div></div>
+  <div class="col svg-container">  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#FFF4F1"/>
+  </svg>
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+  <g clip-path="url(#clip0_233_3533)">
+    <path d="M38.1619 20.0014L39.9168 15.4242C40.1093 14.9192 39.9593 14.3468 39.5368 14.0043L35.7321 10.9195L34.9621 6.07735C34.8771 5.54239 34.4572 5.12492 33.9222 5.03992L29.08 4.26998L25.9977 0.462738C25.6578 0.0402669 25.0728 -0.109723 24.5803 0.082764L20.0007 1.84014L15.4235 0.0852638C14.916 -0.109723 14.3485 0.0452666 14.0061 0.465238L10.9213 4.27248L6.0791 5.04242C5.54664 5.12742 5.12667 5.54739 5.04167 6.07985L4.27173 10.922L0.464487 14.0068C0.0445154 14.3468 -0.107974 14.9192 0.0845127 15.4242L1.83939 20.0014L0.0845127 24.5786C-0.110474 25.0836 0.0445154 25.656 0.464487 25.996L4.27173 29.0783L5.04167 33.9205C5.12667 34.4554 5.54414 34.8754 6.0791 34.9604L10.9213 35.7303L14.0061 39.5351C14.3485 39.96 14.921 40.11 15.426 39.915L20.0007 38.1627L24.5778 39.9175C24.7228 39.9725 24.8728 40 25.0253 40C25.3928 40 25.7553 39.8375 25.9977 39.5351L29.08 35.7303L33.9222 34.9604C34.4572 34.8754 34.8771 34.4554 34.9621 33.9205L35.7321 29.0783L39.5368 25.996C39.9593 25.6535 40.1093 25.0836 39.9168 24.5786L38.1619 20.0014Z" fill="#ED5A25"/>
+    <path d="M16.2506 17.5019C14.1833 17.5019 12.5009 15.8195 12.5009 13.7522C12.5009 11.6848 14.1833 10.0024 16.2506 10.0024C18.318 10.0024 20.0004 11.6848 20.0004 13.7522C20.0004 15.8195 18.318 17.5019 16.2506 17.5019ZM16.2506 12.5023C15.5607 12.5023 15.0007 13.0622 15.0007 13.7522C15.0007 14.4421 15.5607 15.0021 16.2506 15.0021C16.9406 15.0021 17.5005 14.4421 17.5005 13.7522C17.5005 13.0622 16.9406 12.5023 16.2506 12.5023Z" fill="white"/>
+    <path d="M23.7501 30.0008C21.6828 30.0008 20.0004 28.3184 20.0004 26.2511C20.0004 24.1837 21.6828 22.5013 23.7501 22.5013C25.8175 22.5013 27.4999 24.1837 27.4999 26.2511C27.4999 28.3184 25.8175 30.0008 23.7501 30.0008ZM23.7501 25.0012C23.0627 25.0012 22.5002 25.5636 22.5002 26.2511C22.5002 26.9385 23.0627 27.501 23.7501 27.501C24.4376 27.501 25 26.9385 25 26.2511C25 25.5636 24.4376 25.0012 23.7501 25.0012Z" fill="white"/>
+    <path d="M13.7514 30.0005C13.4989 30.0005 13.2464 29.9255 13.0264 29.768C12.464 29.3656 12.334 28.5856 12.7365 28.0231L25.2356 10.5243C25.6381 9.96188 26.418 9.83189 26.9805 10.2344C27.543 10.6343 27.6704 11.4168 27.2705 11.9767L14.7713 29.4755C14.5238 29.818 14.1414 30.0005 13.7514 30.0005Z" fill="white"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_233_3533">
+      <rect width="40" height="40" fill="white"/>
+    </clipPath>
+  </defs>
+</svg><div class="nut-title">Giảm giá sâu</div></div>
+  <div class="col svg-container">  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#FFF4F1"/>
+  </svg><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+  <g clip-path="url(#clip0_233_3546)">
+    <path d="M20 9.60938C14.4772 9.60938 10 14.2614 10 20C10 25.7386 14.4772 30.3906 20 30.3906C25.5228 30.3906 30 25.7386 30 20C30 14.2614 25.5228 9.60938 20 9.60938ZM21.1719 26.1323V27.5345H18.8281V26.1352C17.047 25.9075 15.6655 24.3831 15.6655 22.5411H18.0092C18.0092 23.2473 18.5837 23.8218 19.2899 23.8218H20.6858C21.4164 23.8218 22.0107 23.2274 22.0107 22.4969C22.0107 21.7662 21.4164 21.172 20.6858 21.172H19.3143C17.2913 21.172 15.6456 19.5262 15.6456 17.5033C15.6456 15.6452 17.0343 14.1065 18.8281 13.8677V12.4656H21.1719V13.8717C22.9513 14.1241 24.3245 15.6567 24.3245 17.5048H21.9808C21.9808 16.7734 21.3857 16.1783 20.6543 16.1783H19.3143C18.5837 16.1783 17.9894 16.7727 17.9894 17.5032C17.9894 18.2338 18.5837 18.8281 19.3143 18.8281H20.6858C22.7088 18.8281 24.3545 20.4739 24.3545 22.4968C24.3544 24.3548 22.9657 25.8936 21.1719 26.1323Z" fill="#ED5A25"/>
+    <path d="M35 20C35 28.2843 28.2843 35 20 35C15.8579 35 12.1079 33.3211 9.39347 30.6066L11.4826 28.5174C11.4075 28.3173 11.3985 28.2931 11.3233 28.093L3.05034 27.5351C2.9437 27.6417 2.89183 27.6936 2.78519 27.8002L3.34308 36.0732C3.54323 36.1484 3.56737 36.1573 3.76753 36.2325L5.85784 34.1421C9.47722 37.7614 14.4772 40 20 40C31.0457 40 40 31.0457 40 20H35Z" fill="#ED5A25"/>
+    <path d="M20 5C24.1421 5 27.8921 6.67891 30.6066 9.39336L30.6061 9.39383L28.5163 11.4836C28.5914 11.6838 28.6005 11.7079 28.6756 11.908L36.9486 12.4659C37.0552 12.3593 37.1071 12.3074 37.2138 12.2008L36.6559 3.92781C36.4557 3.85266 36.4316 3.84367 36.2314 3.76852L34.142 5.85781C30.5228 2.23859 25.5228 0 20 0C8.9543 0 0 8.9543 0 20H5C5 11.7157 11.7157 5 20 5Z" fill="#ED5A25"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_233_3546">
+      <rect width="40" height="40" fill="white"/>
+    </clipPath>
+  </defs>
+</svg><div class="nut-title">Hoàn tiền</div></div>
+  <div class="col svg-container">  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#FFF4F1"/>
+  </svg>
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="34" height="35" viewBox="0 0 34 35" fill="none">
+  <path d="M31.2138 4.8984C31.1538 4.44714 30.8438 4.07594 30.4249 3.95393L16.9972 0.0418627C16.8058 -0.0139542 16.6036 -0.0139542 16.412 0.0418627L2.9843 3.95393C2.56534 4.07594 2.25542 4.44698 2.19544 4.8984C2.11756 5.48509 0.340837 19.3472 4.89801 26.2432C9.4498 33.131 16.1647 34.8961 16.4482 34.9679C16.5325 34.9893 16.6184 34.9998 16.7046 34.9998C16.7908 34.9998 16.8767 34.9891 16.961 34.9679C17.2447 34.8961 23.9595 33.131 28.5112 26.2432C33.0684 19.3474 31.2916 5.48524 31.2138 4.8984ZM25.3637 12.9913L16.2047 22.5864C15.9916 22.8097 15.7121 22.9215 15.4327 22.9215C15.1534 22.9215 14.8739 22.8099 14.6607 22.5864L8.9978 16.6538C8.79297 16.4394 8.67797 16.1484 8.67797 15.8451C8.67797 15.5418 8.79312 15.2508 8.9978 15.0364L10.1222 13.8584C10.5486 13.4119 11.2399 13.4117 11.6662 13.8584L15.4327 17.8043L22.6954 10.1957C22.9001 9.9811 23.1778 9.86062 23.4674 9.86062C23.7569 9.86062 24.0347 9.9811 24.2393 10.1957L25.3637 11.3736C25.7901 11.8203 25.7901 12.5446 25.3637 12.9913Z" fill="#ED5A25"/>
+</svg><div class="nut-title">Bảo mật</div></div>
+  <div class="col svg-container">  <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+    <circle cx="40" cy="40" r="40" fill="#FFF4F1"/>
+  </svg>
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+  <path d="M33.5004 20.2267C32.1457 19.8791 30.8327 19.3854 29.5846 18.7544C29.1992 18.5617 28.8446 18.3767 28.5208 18.1994C27.881 17.8448 27.3723 17.5288 27.0408 17.313C27.0219 17.2997 27.0011 17.2893 26.9792 17.2821C26.7348 17.1397 26.456 17.0672 26.1732 17.0727C25.8904 17.0781 25.6145 17.1612 25.3758 17.313C23.3869 18.6136 21.2076 19.5966 18.9162 20.2267C18.5789 20.3087 18.2787 20.5012 18.0636 20.7737C17.8484 21.0461 17.7307 21.3827 17.7292 21.7298V23.048C17.7283 24.9516 18.198 26.8259 19.0963 28.5042C19.9947 30.1826 21.2938 31.6129 22.8783 32.668L23.5952 33.1459L25.3527 34.3175C25.492 34.4093 25.6458 34.4771 25.8075 34.518H25.8152C25.9416 34.5615 26.0747 34.5824 26.2083 34.5796C26.5129 34.577 26.8102 34.486 27.0639 34.3175L29.5383 32.668C31.1228 31.6129 32.422 30.1826 33.3203 28.5042C34.2187 26.8259 34.6883 24.9516 34.6875 23.048V21.7298C34.6859 21.3827 34.5682 21.0461 34.3531 20.7737C34.1379 20.5012 33.8377 20.3087 33.5004 20.2267ZM29.0681 24.4432L25.9848 27.5265C25.8387 27.6698 25.6422 27.7501 25.4375 27.7501C25.2328 27.7501 25.0363 27.6698 24.8902 27.5265L23.3485 25.9848C23.2034 25.8397 23.1218 25.6428 23.1218 25.4375C23.1218 25.2323 23.2034 25.0354 23.3485 24.8903C23.4937 24.7451 23.6905 24.6636 23.8958 24.6636C24.1011 24.6636 24.298 24.7451 24.4431 24.8903L25.4375 25.8923L27.9735 23.3486C28.0454 23.2767 28.1307 23.2197 28.2246 23.1808C28.3185 23.1419 28.4192 23.1219 28.5208 23.1219C28.6225 23.1219 28.7231 23.1419 28.817 23.1808C28.9109 23.2197 28.9962 23.2767 29.0681 23.3486C29.14 23.4205 29.197 23.5058 29.2359 23.5997C29.2748 23.6936 29.2948 23.7942 29.2948 23.8959C29.2948 23.9975 29.2748 24.0982 29.2359 24.1921C29.197 24.286 29.14 24.3713 29.0681 24.4432Z" fill="#ED5A25"/>
+  <path d="M27.4263 10.2058L20.8356 3.46873C20.5991 3.22935 20.3321 3.02203 20.0417 2.85206V8.47915C20.0435 9.0919 20.2877 9.67903 20.721 10.1123C21.1543 10.5456 21.7414 10.7898 22.3542 10.7916H27.8965C27.7574 10.5828 27.6 10.3868 27.4263 10.2058ZM28.4746 12.3333H22.3542C21.332 12.3333 20.3517 11.9272 19.6289 11.2045C18.9061 10.4817 18.5 9.50133 18.5 8.47915V2.34331C18.3623 2.32155 18.2231 2.31124 18.0837 2.31248H6.16667C5.14448 2.31248 4.16416 2.71854 3.44136 3.44134C2.71856 4.16413 2.3125 5.14446 2.3125 6.16665V30.8333C2.3125 31.8555 2.71856 32.8358 3.44136 33.5586C4.16416 34.2814 5.14448 34.6875 6.16667 34.6875H23.1327L22.0227 33.9475C20.2267 32.7528 18.754 31.1324 17.7359 29.2307C16.7178 27.329 16.1859 25.205 16.1875 23.0479V21.7298C16.1878 21.2531 16.2986 20.7829 16.5113 20.3562C16.7239 19.9296 17.0326 19.558 17.4131 19.2708H7.70833C7.5039 19.2708 7.30783 19.1896 7.16327 19.045C7.01871 18.9005 6.9375 18.7044 6.9375 18.5C6.9375 18.2955 7.01871 18.0995 7.16327 17.9549C7.30783 17.8104 7.5039 17.7291 7.70833 17.7291H21.3829C22.4744 17.2369 23.5282 16.665 24.5356 16.0179C24.9876 15.7308 25.5059 15.565 26.0406 15.5367C26.5754 15.5083 27.1083 15.6183 27.5881 15.856L27.6421 15.8791L27.8733 16.0179C28.0352 16.1258 28.251 16.2569 28.5208 16.4187V12.9037C28.5211 12.7126 28.5056 12.5219 28.4746 12.3333ZM16.1875 27.75C16.1875 27.9544 16.1063 28.1505 15.9617 28.295C15.8172 28.4396 15.6211 28.5208 15.4167 28.5208H7.70833C7.5039 28.5208 7.30783 28.4396 7.16327 28.295C7.01871 28.1505 6.9375 27.9544 6.9375 27.75C6.9375 27.5455 7.01871 27.3495 7.16327 27.2049C7.30783 27.0604 7.5039 26.9791 7.70833 26.9791H15.4167C15.6211 26.9791 15.8172 27.0604 15.9617 27.2049C16.1063 27.3495 16.1875 27.5455 16.1875 27.75ZM7.70833 22.3541H13.875C14.0794 22.3541 14.2755 22.4354 14.4201 22.5799C14.5646 22.7245 14.6458 22.9205 14.6458 23.125C14.6458 23.3294 14.5646 23.5255 14.4201 23.67C14.2755 23.8146 14.0794 23.8958 13.875 23.8958H7.70833C7.5039 23.8958 7.30783 23.8146 7.16327 23.67C7.01871 23.5255 6.9375 23.3294 6.9375 23.125C6.9375 22.9205 7.01871 22.7245 7.16327 22.5799C7.30783 22.4354 7.5039 22.3541 7.70833 22.3541ZM7.70833 8.47915H13.875C14.0794 8.47915 14.2755 8.56036 14.4201 8.70492C14.5646 8.84948 14.6458 9.04554 14.6458 9.24998C14.6458 9.45442 14.5646 9.65048 14.4201 9.79504C14.2755 9.9396 14.0794 10.0208 13.875 10.0208H7.70833C7.5039 10.0208 7.30783 9.9396 7.16327 9.79504C7.01871 9.65048 6.9375 9.45442 6.9375 9.24998C6.9375 9.04554 7.01871 8.84948 7.16327 8.70492C7.30783 8.56036 7.5039 8.47915 7.70833 8.47915ZM18.5 14.6458H7.70833C7.5039 14.6458 7.30783 14.5646 7.16327 14.42C7.01871 14.2755 6.9375 14.0794 6.9375 13.875C6.9375 13.6705 7.01871 13.4745 7.16327 13.3299C7.30783 13.1854 7.5039 13.1041 7.70833 13.1041H18.5C18.7044 13.1041 18.9005 13.1854 19.0451 13.3299C19.1896 13.4745 19.2708 13.6705 19.2708 13.875C19.2708 14.0794 19.1896 14.2755 19.0451 14.42C18.9005 14.5646 18.7044 14.6458 18.5 14.6458Z" fill="#ED5A25"/>
+</svg><div class="nut-title">Uy tín</div></div>
+</div>
+<div class="row mini-banner">
+    <div class="col-6">
+        <img class="mini-banner1" src="/assets/images/mini-banner1.svg" alt="">
+    </div>
+    <div class="col-6">
+        <img class="mini-banner2" src="/assets/images/mini-banner2.svg" alt="">
+    </div>
+</div>
+<div class="group-button">
+  <div >
+    <button>Hôm nay có gì</button>
+  </div>
+  <div><button>Gợi ý cho bạn</button></div>
+  <div><button>Gợi ý cho bạn</button></div>
+  <div><button>Gợi ý cho bạn</button></div>
+  <div><button>Gợi ý cho bạn</button></div>
+</div>
+<div class="row all-card"> 
+  <div class="card-wrapper col">
+    <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product1.png" alt="">
+      <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product2.png" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product3.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product4.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product5.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+</div>
+<div class="row all-card">
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product6.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product7.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product8.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product9.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product10.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+</div>
+<div class="view-all">
+<button >Xem tất cả</button>
+</div>
+<div class="banner2">
+  <img src="/assets/images/banner2.svg" alt="">
+</div>
+<div class="mini-banner-title">
+  <h2>Sản phẩm theo danh mục</h2>
+  <div class="mini-banner-title-right"><a href="/collection.html"><p>Tất cả danh mục</p></a>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+</div>
+<div class="row mini-banner">
+    <div class="col-6">
+        <img class="mini-banner1" src="/assets/images/mini-banner3.svg" alt="">
+    </div>
+    <div class="col-6">
+        <img class="mini-banner2" src="/assets/images/mini-banner4.svg" alt="">
+    </div>
+</div>
+<div class="row">
+<div class="row all-card">
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product11.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product12.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product13.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product14.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product15.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+</div>
+<div class="view-all">
+<button >Xem tất cả</button>
+</div>
+</div>
+<div class="mini-banner-title">
+  <h2>Sản phẩm bán chạy</h2>
+  <div class="mini-banner-title-right"><a href="/collection.html"><p>Tất cả danh mục</p></a>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+</div>
+<div class="hot-voucher">
+<img src="/assets/images/hot-voucher.svg" alt="">
+</div>
+<div class="mini-banner-title">
+  <h2>Sản phẩm mới nhất</h2>
+  <div class="mini-banner-title-right"><a href="/collection.html"><p>Tất cả danh mục</p></a>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+</div>
+<div class="row">
+<div class="row all-card">
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product9.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product16.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product17.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product18.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+ <div class="card-wrapper col">
+  <div class="card-wrapper-content">
+    <div class="card-picture">
+      <img class="picture" src="/assets/images/product19.png" alt="">
+            <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+    </div>
+    <div class="name-product">
+      Target Gift Card 50$ (US)- Order
+    </div>
+    <div class="price">
+      120.000 ~ 134.000
+    </div>
+    <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+    </div>
+  </div>
+</div>
+  <div class="column-of-product">
+<div class="col-wrapper">
+      <div class="column-title"><p>Top Selling product</p>
+        <div class="arrow">
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
         </div>
-
-
-
+      </div>
+      <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product1.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product2.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product3.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product4.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+    </div>
+<div class="col-wrapper">
+      <div class="column-title"><p>Featureed Product</p>
+        <div class="arrow">
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product1.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product2.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product3.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product4.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-wrapper">
+      <div class="column-title"><p>On-sale Product</p>
+        <div class="arrow">
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+      <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product1.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product2.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product3.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+            <div class="col-product">
+        <div class="col-product-image">
+            <img src="/assets/images/col-product4.png" alt="">
+        </div>
+        <div class="col-product-info">
+            <div class="col-product-name">
+                Target Gift Card 50$ (US)
+            </div>
+            <div class="col-product-price"> 
+                120.000 ~ 134.000
+            </div>
+            <div class="star">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M6.99968 10.0761L9.42051 11.5403C9.86384 11.8086 10.4063 11.412 10.2897 10.9103L9.64801 8.15698L11.7888 6.30198C12.1797 5.96365 11.9697 5.32198 11.4563 5.28115L8.63884 5.04198L7.53634 2.44031C7.33801 1.96781 6.66134 1.96781 6.46301 2.44031L5.36051 5.03615L2.54301 5.27531C2.02968 5.31615 1.81968 5.95781 2.21051 6.29615L4.35134 8.15115L3.70968 10.9045C3.59301 11.4061 4.13551 11.8028 4.57884 11.5345L6.99968 10.0761Z" fill="#ED5A25"/>
+</svg> <span>4.8</span> (120k)
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mini-banner-title">
+  <h2>Tin tức & Khuyến mại</h2>
+  <div class="mini-banner-title-right">
+  <div class="arrow-wrapper"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+</div>
+<div class="news">
+  <div class="single-new">
+    <div class="new-image">
+      <img src="/assets/images/new1.png" alt="">
+    </div>
+    <div class="new-title">Buy RM100 Free RM5; Buy RM200 Free RM10; RM300 Free RM20 Razer Gold Malaysia</div>
+  </div>
+    <div class="single-new">
+    <div class="new-image">
+      <img src="/assets/images/new2.png" alt="">
+    </div>
+    <div class="new-title">Buy RM100 Free RM5; Buy RM200 Free RM10; RM300 Free RM20 Razer Gold Malaysia</div>
+  </div>
+    <div class="single-new">
+    <div class="new-image">
+      <img src="/assets/images/new3.png" alt="">
+    </div>
+    <div class="new-title">Malaysian Team VAMOS isn’t as “Easy” as some may think – M6 Updates</div>
+  </div>
+</div>
+<div class="banner3">
+  <img src="/assets/images/banner3.svg" alt="">
+</div>
+</div>
         <%- include("./partials/footer.ejs") %>
             <script type="module" src="main.js"></script>
+
 </body>
 
 </html>

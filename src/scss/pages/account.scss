@@ -1,0 +1,237 @@
+.main-wrapper3{
+        padding: 149px 0px 0 0px;
+        position: relative;
+        .account-bg{
+            background-image: url(/assets/images/account-bg.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 228px;
+            position: absolute;
+            top: 149px;
+  left: 0;
+  right: 0;
+  z-index: -111111110;
+        }
+        .main-wrapper4{
+            padding: 121px 126px 55px 126px;
+
+            .account-left-side{
+                border-radius: 20px;
+                border: 1px solid var(--Greys-Colors-05, #E5E5E5);
+                background: #FFF;
+
+                .account-content-wrapper{
+                    padding: 58px 46px 86px 46px;
+                    .account-info-wrapper{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 28.5px;
+                        .profile-name{
+                            padding-top: 24px;
+                            padding-bottom: 12px;
+                            color: var(--Color-Text-01, #323232);
+                            font-family: "Quicksand",sans-serif;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                        .profile-button{
+                            background: var(--Secondary-Colors-11, #FFDBCE);
+                            border-radius: 100px;
+
+                            button{
+                                padding: 4px 12px 4px 12px;
+                                background: var(--Secondary-Colors-11, #FFDBCE);
+                                border-radius: 100px;
+                                border: none;
+                                color: var(--Color-Text-01, #323232);
+                                font-family: "Inter",sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                                            &:hover{
+                                cursor: pointer;
+                                background-color: #cfb1a7
+                            }
+                            }
+                        }
+                        .account-profile-picture{
+                            position: relative;
+                            width: 172px;
+                            height: 172px;
+                            border-radius: 172px;
+
+                            flex-shrink: 0;
+                            .anh-minh{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 172px;
+                            }
+                            .icon-may-anh{
+                                position: absolute;
+                                bottom: 0;
+                                left: 70%;
+                            }
+                        }
+                    }
+                    .profile-button-wrapper{
+                        padding-top: 41.5px;
+                        .button1{
+                            padding: 10px 13px 16px 20px;
+                            display: flex;
+                            align-items: center;
+                            gap: 24px;
+                            color: #454545;
+                            font-family: "Quicksand" ,sans-serif;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            p{
+                                white-space: nowrap;
+                            }
+                            &:hover{
+                                border-radius: 20px;
+                                background: var(--Secondary-Colors-12, #FFF4F1);
+                                box-shadow: -5px 4px 17.3px 0px rgba(248, 248, 248, 0.50);
+                                color: var(--Primary-Colors, #ED5A25);
+                            }
+                        }
+                    }
+                }
+            }
+            .account-right-side{
+                height: 100%;
+                padding: 27px 38px 0px 29px;
+                border-radius: 20px;
+                border: 1px solid var(--Greys-Colors-05, #E5E5E5);
+                background: #FFF;
+                display: flex;
+                flex-direction: column;
+                .account-right-side-title{
+                color: var(--Color-Text-01, #323232);
+                font-family: "Quicksand",sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .card-tong-quan-wrapper{
+                margin-top: 24px;
+                display: flex;
+                gap: 40px;
+                .card-lich-su-wrapper {
+  padding: 18px 22px 38.5px 27px;
+  border-radius: 20px;
+  border: 1px solid var(--Greys-Colors-05, #e5e5e5);
+  background: #fff;
+  flex: 1;
+height: 100%;
+  .lich-su-title {
+    color: var(--Color-Text-01, #323232);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .xem-them {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999;
+      cursor: pointer;
+    }
+  }
+
+  .lich-su-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .lich-su-item {
+    text-align: center;
+
+    .so-luong {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--Primary-Colors, #ed5a25);
+      margin-bottom: 4px;
+    }
+
+    .label {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--Color-Text-02, #666666);
+    }
+  }
+}
+
+            .tong-quan-account{
+                flex: 1;
+                .tong-quan-left{
+                    padding: 18px 22px 38.5px 27px;
+                    border-radius: 20px;
+                    border: 1px solid var(--Greys-Colors-05, #E5E5E5);
+                    background: #FFF;
+                    .tong-quan-left-title{
+                        color: #353535;
+                        font-family: "Quicksand",sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        padding-bottom: 25px;
+                    }
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        padding-bottom: 42px;
+                    }
+                    .tong-quan-left-bottom{
+                        display: flex;
+                        justify-content: space-between;
+                        .tong-quan-left-money{
+                            display: flex;
+                            gap: 12px;
+                            align-items: center;
+                            img{
+                                padding: 0 !important;
+                            }
+                            p{
+                                color: var(--Primary-Colors, #ED5A25);
+                                font-family: "Quicksand",sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                            }
+                        }
+                        .tong-quan-left-button{
+                            button{
+                                padding: 4px 12px;
+                                border: none;
+                                border-radius: 100px;
+                                background: var(--Secondary-Colors-11, #FFDBCE);
+                                color: var(--Color-Text-01, #323232);
+                                font-family: "Inter",sans-serif;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+        }
+
+}

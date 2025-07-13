@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <%- include("./partials/header.ejs") %>
+    <div class="main-wrapper1">
+            <div class="row main-wrapper2">
+                <div class="col-3 collect-left">
+                    <div class="danh-muc">
+                        <div class="danh-muc-title">
+                            Danh mục sản phẩm
+                        </div>
+                        <div class="danh-muc-list">
+                            <ul>
+                                <li><a href="">Mobile Game Cards</a></li>
+                                <li><a href="">Game Cards</a></li>
+                                <li><a href="">Payment Cards</a></li>
+                                <li><a href="">Gift Cards</a></li>
+                                <li><a href="">Game Console</a></li>
+                                <li><a href="">Game CD-Key</a></li>
+                                <li><a href="">Video Streaming</a></li>
+                                <li><a href="">Music</a></li>
+                                <li><a href="">Shopping</a></li>
+                                <li><a href="">Telco Prepaid Cards</a></li>
+                                <li><a href="">Tools</a></li>
+                                <li><a href="">Software</a></li>
+                                <li><a href="">Social App</a></li>
+                                <li><a href="">Freebie Codes</a></li>
+                                <li><a href="">Subscript</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="danh-muc">
+                        <div class="danh-muc-title">
+                            Khoảng giá
+                        </div>
+                        <div class="danh-muc-list khoang-gia-list">
+                            <img src="/assets/images/thanhkeo.svg" alt="">
+                            <div>
+                                Price: <strong>500.000 - 1.000.000</strong>
+                            </div>
+                            <a href="">
+                                <button>
+                                    Lọc
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="danh-muc">
+                        <div class="danh-muc-title">
+                            Đánh giá
+                        </div>
+                        <div class="danh-muc-list danh-gia-list">
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-group">
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="star-number"> (120k)</div>
+                                </li>
+                            </ul>
+                                                        <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-group">
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="star-number"> (120k)</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-group">
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="star-number"> (120k)</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-group">
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="star-number"> (120k)</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-group">
+                                        <div class="marked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="unmarked-star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="star-number"> (120k)</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+ <div class="danh-muc">
+                        <div class="danh-muc-title">
+                            Thương hiệu
+                        </div>
+                        <div class="danh-gia-list thuong-hieu-list">
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Apple </div>
+                                </li>
+                            </ul>
+                                                        <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Google</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Microsoft </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Amazon</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">McDonald's</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Visa</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Tencent </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Louis Vuitton</div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">MasterCard </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><input type="checkbox">
+                                    <div class="star-number1">Coca-Cola</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collect-card-voucher">
+                        <img src="/assets/images/collect-card-voucher.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-8 collect-right">
+                    <div class="row">
+                    <div class="showing">
+                        Showing 1-12 
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product1.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product2.png" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product3.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product4.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product20.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product21.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product7.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product22.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product11.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product12.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product13.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product14.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product23.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product1.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product24.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product4.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product11.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product12.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product13.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-3">
+                        <div class="card-wrapper">
+                            <div class="card-wrapper-content">
+                            <div class="card-picture">
+                                <img class="picture" src="/assets/images/product14.png" alt="">
+                                <img class="icon-trai-tim" src="/assets/images/icon-trai-tim.svg" alt="">
+                            </div>
+                            <div class="name-product">
+                                Target Gift Card 50$ (US)- Order
+                                </div>
+                            <div class="price">
+                            120.000 ~ 134.000
+                            </div>
+                            <div class="buy-button"><i class="fa-solid fa-cart-plus"></i> Mua ngay</div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="collect-page-number-wrapper">
+                        <div class="collect-page-number">
+                            <div><i class="fa-solid fa-arrow-left"></i></div>
+                            <div class="collect-number">1</div>
+                            <div class="collect-number">2</div>
+                            <div class="collect-number">3</div>
+                            <div class="collect-number">4</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+        <%- include("./partials/footer.ejs") %>
+<script type="module" src="main.js"></script>
+</html>

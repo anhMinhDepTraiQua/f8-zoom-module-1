@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <%- include("./partials/header-account.ejs") %>
+<body>
+    <div class="main-wrapper3">
+        <div class="account-bg">
+        </div>
+        <div class="main-wrapper4">
+            <div class="row">
+                <div class="col-3">
+                    <div class="account-left-side">
+                        <div class="account-content-wrapper">
+                            <div class="account-info-wrapper">
+                            <div class="account-profile-picture">
+                                <img class="anh-minh" src="/assets/images/dep-trai.jpg" alt="ảnh minh đẹp trai">
+                                <img class="icon-may-anh" src="/assets/images/icon-may-anh.svg" alt="">
+                            </div>
+                            <div class="profile-name">
+                                Ngô Đình Nhật Minh
+                            </div>
+                            <div class="profile-button">
+                                <button>
+                                    Thông tin tài khoản
+                                </button>
+                            </div>
+                            </div>
+                            <img src="/assets/images/line.svg" alt="">
+                            <div class="profile-button-wrapper">
+                                <div class="button1">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <p>Tài khoản</p>
+                                </div>
+                                <div class="button1">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <p>Lịch sử mua hàng</p>
+                                </div>
+                                <div class="button1">
+                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                    <p>Nạp tiền & Rút tiền</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="account-right-side">
+                        <div class="account-right-side-title">
+                            Tổng quan tài khoản
+                        </div>
+                        <div class="card-tong-quan-wrapper">
+                        <div class="tong-quan-account">
+                            <div class="tong-quan-left">
+                                <div class="tong-quan-left-title">
+                                    Số dư hiện tại
+                                </div>
+                                <img src="/assets/images/line.svg" alt="">
+                                <div class="tong-quan-left-bottom">
+                                    <div class="tong-quan-left-money">
+                                        <img src="/assets/images/icon-coin.svg" alt="">
+                                        <p>18.000đ</p>
+                                    </div>
+                                    <div class="tong-quan-left-button">
+                                        <button>Nạp tiền</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card-lich-su-wrapper">
+  <div class="lich-su-title">
+    Lịch sử mua hàng
+    <span class="xem-them">Xem thêm ></span>
+  </div>
+
+  <div class="lich-su-list">
+    <div class="lich-su-item">
+      <div class="so-luong">12</div>
+      <div class="label">Chờ xử lý</div>
+    </div>
+    <div class="lich-su-item">
+      <div class="so-luong">8</div>
+      <div class="label">Đang xử lý</div>
+    </div>
+    <div class="lich-su-item">
+      <div class="so-luong">8</div>
+      <div class="label">Hoàn thành</div>
+    </div>
+    <div class="lich-su-item">
+      <div class="so-luong">8</div>
+      <div class="label">Bị huỷ</div>
+    </div>
+  </div>
+</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <%- include("./partials/footer.ejs") %>
+        <script type="module" src="main.js"></script>
+</html>

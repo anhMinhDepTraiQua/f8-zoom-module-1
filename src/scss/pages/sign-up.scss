@@ -1,1 +1,129 @@
-//sign-up.scss
+.sign-up-wrapper{
+    background-image: url(/assets/images/sign-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logup-form{
+        display: flex;
+        border-radius: 45px;
+background: rgba(255, 255, 255, 0.30);
+box-shadow: 6px 12px 33.1px 0px rgba(229, 229, 229, 0.30);
+backdrop-filter: blur(11.949999809265137px);
+width: 1016px;
+height: 488px;
+flex-shrink: 0;
+.logup-left-side{
+    padding: 105px 66px 151px 70px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .logup-left-title{
+        color: var(--Greys-Colors-01, #404040);
+font-family: "Manrope",sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+text-transform: uppercase;
+padding-bottom: 42px;
+    }
+    .logup-left-p{
+        color: var(--Color-Text-01, #323232);
+
+/* Headline 7 */
+font-family: "Quicksand" ,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+        .single-logup-p{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding-bottom: 12px;
+        }
+    }
+}
+.logup-right-side{
+    padding: 86px 69px 86px 68px;
+    width: 50%;
+    height: 100%;
+            border-radius: 45px;
+    background-color: #FFF;
+    .logup-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 85px;
+button{
+            width: 283px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 100px;
+background: var(--Primary-Colors, #ED5A25);
+border: none;
+color: #FFF;
+font-family: "Manrope",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+    }
+.logup-right-title{
+    padding-bottom: 25px;
+    color: var(--Color-Text-01, #323232);
+font-family: "Manrope" ,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+.input-form-email{
+    margin-bottom: 19px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+            border-radius: 100px;
+background: #F2F2F2;
+            width: 373px;
+height: 48px;
+flex-shrink: 0;
+    input{
+        width: 75%;
+        border: none;
+        background-color: #F2F2F2;
+        &:focus{
+            border: none;
+            outline: none;
+        }
+    }
+}
+.logup-small-title{
+    color: #999;
+font-family: "Inter",sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+white-space: nowrap ;
+padding-bottom: 21px;
+}
+.logup-icon-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+}
+    }
+}
