@@ -1,12 +1,17 @@
 .payment-main-wrapper{
     width: 100vw;
     height: 100vh;
-    background: url(/assets/images/payment-bg.jpg) lightgray -712.029px -1721.827px / 149.863% 353.092% no-repeat;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    background: url(/assets/images/payment-bg.jpg) lightgray;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .payment-form-wrapper{
         .payment-title{
+            text-align: center;
             color: var(--Color-Text-01, #323232);
             font-family: "Quicksand",sans-serif;
             font-size: 32px;
@@ -14,6 +19,193 @@
             font-weight: 600;
             line-height: normal;
             padding-bottom: 47px;
+
+        }
+        .payment-info{
+            .payment-info-title{
+                color: var(--Color-Text-01, #323232);
+font-family: "Manrope",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-transform: uppercase;
+padding-bottom: 14px;
+            }
+            .payment-info-input{
+                width: 475px;
+flex-shrink: 0;
+                border-radius: 15px;
+border: 1px solid var(--Greys-Colors-05, #E5E5E5);
+background: #FFF;
+overflow: hidden;
+margin-bottom: 28px;
+                .single-payment-info-input{
+                    display: flex;
+                    padding: 17px 27px 17px 27px;
+                    gap: 45px;
+                    &:not(:last-child){
+                        border-bottom: 1px solid #F2F2F2;
+                    }
+
+                    .label{
+                        color: #B8B8B8;
+font-family: "Manrope",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+                    }
+                    input{
+
+                        width: 100%;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+                .single-payment-info-input1{
+                    display: flex;
+                    padding: 17px 27px 17px 27px;
+                                            gap: 32.56px;
+                    &:not(:last-child){
+                        border-bottom: 1px solid #F2F2F2;
+                    }
+
+                    .label{
+                        color: #B8B8B8;
+font-family: "Manrope",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+                    }
+                    input{
+
+                        width: 100%;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+            }
+                        .payment-info-input-bottom{
+                            margin-bottom: 20px;
+                border-radius: 15px;
+border: 1px solid var(--Greys-Colors-05, #E5E5E5);
+background: #FFF;
+overflow: hidden;
+                .single-payment-info-input-bottom1{
+                    padding: 15px 24px 13px 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    &:not(:last-child){
+                        border-bottom: 1px solid #F2F2F2;
+                    }
+
+                    .label-bottom{
+                        color: #121212;
+font-family: "Inter",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+                    }
+                    input{
+                        width: 100%;
+                        border: none;
+                        &:focus{
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                    .label-input-bottom{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
+                .single-payment-info-input-bottom{
+                                        padding: 15px 24px 13px 25px;
+                    display: flex;
+                    flex-direction: column;
+                                            gap: 10px;
+                    &:not(:last-child){
+                        border-bottom: 1px solid #F2F2F2;
+                    }
+
+                    .label-bottom{
+                        color: #121212;
+font-family: "Inter",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+                    }
+                    input{
+                        border: none;
+                        &:focus{
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .payment-button{
+        padding-bottom: 11px;
+        button{
+                    display: flex;
+width: 482px;
+height: 44px;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #ED5A25;
+border: none;
+color: var(--Greys-Colors-09, #FFF);
+font-family: "Quicksand",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+&:hover{
+    background-color: #aa4520;
+    cursor: pointer;
+}
+        }
+    }
+    .payment-button2{
+        padding-bottom: 11px;
+        button{
+                    display: flex;
+width: 482px;
+height: 44px;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #E5E5E5;
+border: none;
+font-family: "Quicksand",sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+&:hover{
+    background-color: #a1a1a1;
+    cursor: pointer;
+}
         }
     }
 }
