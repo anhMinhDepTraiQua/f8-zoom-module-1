@@ -69,7 +69,6 @@
             bottom: -90px;
             right: 100px;
             background: var(--Greys-Colors-01, #FFF);
-            box-shadow: 0px 4.206px 11.25px 0px rgba(244, 244, 244, 0.50);
             border: 1px solid var(--Greys-Colors-04, #D9D9D9);
             border-radius: 7px;
             z-index: 1000;
@@ -84,6 +83,7 @@
 
                 :hover,
                 :hover a {
+                    border-radius: 7px;
                     color: #FFF;
                     background: var(--Greys-Colors-02, #ED5A25);
                     cursor: pointer;
