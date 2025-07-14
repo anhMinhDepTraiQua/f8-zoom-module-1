@@ -95,6 +95,7 @@
                                 white-space: nowrap;
                             }
                             &:hover{
+                                cursor: pointer;
                                 border-radius: 20px;
                                 background: var(--Secondary-Colors-12, #FFF4F1);
                                 box-shadow: -5px 4px 17.3px 0px rgba(248, 248, 248, 0.50);

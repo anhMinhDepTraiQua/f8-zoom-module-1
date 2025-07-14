@@ -1,0 +1,19 @@
+.payment-main-wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: url(/assets/images/payment-bg.jpg) lightgray -712.029px -1721.827px / 149.863% 353.092% no-repeat;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .payment-form-wrapper{
+        .payment-title{
+            color: var(--Color-Text-01, #323232);
+            font-family: "Quicksand",sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-bottom: 47px;
+        }
+    }
+}
