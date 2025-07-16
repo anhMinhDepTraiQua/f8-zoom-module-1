@@ -1,5 +1,5 @@
 .main-wrapper3{
-        padding: 149px 0px 0 0px;
+        padding: 0px 0px 0 0px;
         position: relative;
         .account-bg{
             background-image: url(/assets/images/account-bg.svg);
@@ -7,7 +7,7 @@
             background-size: cover;
             height: 228px;
             position: absolute;
-            top: 149px;
+            top: 0px;
   left: 0;
   right: 0;
   z-index: -111111110;
@@ -28,6 +28,7 @@
                         align-items: center;
                         padding-bottom: 28.5px;
                         .profile-name{
+                            white-space: nowrap;
                             padding-top: 24px;
                             padding-bottom: 12px;
                             color: var(--Color-Text-01, #323232);
@@ -95,7 +96,6 @@
                                 white-space: nowrap;
                             }
                             &:hover{
-                                cursor: pointer;
                                 border-radius: 20px;
                                 background: var(--Secondary-Colors-12, #FFF4F1);
                                 box-shadow: -5px 4px 17.3px 0px rgba(248, 248, 248, 0.50);
@@ -236,3 +236,93 @@ height: 100%;
         }
 
 }
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .main-wrapper4{
+        
+        padding: 121px 10px 55px 10px !important ;
+        .profile-button-wrapper{
+            justify-content: center ;
+        }
+        .account-content-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .account-left-side{
+            margin-bottom: 28px;
+        }
+        .card-tong-quan-wrapper{
+            flex-direction: column;
+            padding-bottom: 31px;
+        }
+    }
+ }
+ // `md` applies to small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        .main-wrapper4{
+        
+        padding: 121px 10px 55px 10px !important;
+        .profile-button-wrapper{
+            justify-content: center ;
+        }
+        .account-content-wrapper{
+            display: flex ;
+            flex-direction: column ;
+        }
+        .account-left-side{
+            margin-bottom: 28px;
+        }
+        .card-tong-quan-wrapper{
+            flex-direction: column;
+            padding-bottom: 31px;
+        }
+    }
+ }
+
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        .main-wrapper4{
+        
+        padding: 121px 10px 55px 10px !important;
+        .profile-button-wrapper{
+            justify-content: center !important;
+        }
+        .account-content-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        .account-left-side{
+            margin-bottom: 28px;
+        }
+        .card-tong-quan-wrapper{
+            flex-direction: column;
+            padding-bottom: 31px;
+        }
+    }
+ }
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { 
+            .main-wrapper4{
+        
+        padding: 121px 10px 55px 10px !important;
+        .profile-button-wrapper{
+            justify-content: center !important;
+            .button1{
+                    padding: 10px 13px 16px 10px !important;
+            }
+        }
+        .account-content-wrapper{
+            display: flex;
+            flex-direction: column;
+            padding: 58px 10px 86px 10px !important;
+        }
+        .account-left-side{
+            margin-bottom: 28px;
+        }
+        .card-tong-quan-wrapper{
+            flex-direction: column;
+            padding-bottom: 31px;
+        }
+    }
+ }

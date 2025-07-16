@@ -1,8 +1,6 @@
 .header-wrapper {
-    position: fixed;
     z-index: 9999;
     width: 100%;
-
     .header-row1 {
         width: 100%;
         display: flex;
@@ -42,7 +40,7 @@
 
         .row1-tai-khoan-dropdown {
             position: absolute;
-            top: 20%;
+            top: 39px;
             right: 100px;
             background: var(--Greys-Colors-01, #FFF);
             border: 1px solid var(--Greys-Colors-04, #D9D9D9);
@@ -59,7 +57,7 @@
 
                 :hover,
                 :hover a {
-                        border-radius: 7px;
+                    border-radius: 7px;
                     color: #FFF;
                     background: var(--Greys-Colors-02, #ED5A25);
                     cursor: pointer;
@@ -92,7 +90,9 @@
         padding: 0 126px;
         align-items: center;
         justify-content: space-between;
-
+        .row2-mobile-header{
+        display: none;
+    }
         .row2-left {
             .logo a {
                 width: 100px;
@@ -149,7 +149,15 @@
         padding: 0 126px;
         align-items: center;
         justify-content: space-between;
-
+        .drawer-header-mobile-wrapper{
+            display: none;
+        }
+        .drawer-header-mobile{
+            display: none;
+        }
+        .row3-mobile-header{
+            display: none;
+        }
         .row3-left {
             display: flex;
             gap: 20px;
@@ -169,3 +177,174 @@
         }
     }
 }
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+@media (min-width: 0px) and (max-width: 575.99px) {
+    .header-row1{
+        display: none !important;
+    }
+    .header-row2{
+        padding: 0 15px !important;
+        height: 52px !important;
+        background-color: #ED5A25 !important;
+        .row2-mobile-header{
+            width: 100%;
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            .row2-mobile-hotline{
+                display: flex;
+                align-items: center;
+                color: #FFF;
+                gap: 8px;
+            }
+        }
+        .row2-left{
+            display: none;
+        }
+        .row2-right{
+            display: none !important;
+        }
+    }
+    .header-row3{
+        position: relative;
+        width: 100% !important;
+
+        padding: 0 12px !important;
+        .drawer-header-mobile-wrapper{
+            display: block !important;
+        }
+        .drawer-header-mobile{
+            display: block !important;
+        }
+        #drawer-header-mobile:checked+.drawer-header-mobile-wrapper{
+                left: 0
+        }
+        .row3-mobile-header{
+            width: 100%;
+            display: flex !important;
+            justify-content: space-between ;
+            .icon-header-mobile{
+                display: flex;
+                align-items: center;
+                gap: 12px
+            }
+        }
+        .drawer-header-mobile-wrapper{
+            position: fixed;
+            top: 0px;
+            left: -575.99px;
+            width: 484.99px;
+            height: 1700px;
+            z-index: 9999;
+            background-color: rgba(144, 144, 144, 0.8);
+            .drawer-header-mobile{
+
+                width: 341px;
+                height: 100%;
+                background-color: #FFF;
+                .drawer-title{
+                    padding: 28.27px 23px 21.07px 27px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #F2F2F2;
+                    .drawer-logo{
+                            width: 140px;
+                            height: 33.665px;
+                            object-fit: cover;
+                        img{
+                            width: 100%;
+                            height: 100%;
+
+                        }
+                    }
+                }
+                .drawer-content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    padding: 37px 21.54px 0px 27px;
+                    .single-row-content{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .row3-left{
+            display: none !important;
+        }
+        .row3-right{
+            display: none !important;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and ( max-width:767.99px){
+        .header-row1{
+        padding: 0 10px !important;
+    }
+    .header-row2 {
+        padding: 0 10px !important;
+       .row2-right {
+            .search-form {
+                .search-input {
+                    input {
+                        width: 100px !important;
+                        border: none;
+                        align-items: center;
+
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-row3{
+        padding: 0 10px !important;
+    }
+ }
+ 
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .header-row1{
+        padding: 0 40px !important;
+    }
+    .header-row2{
+        padding: 0 40px !important;
+    }
+    .header-row3{
+        padding: 0 40px !important;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+        .header-row1{
+        padding: 0 126px ;
+    }
+    .header-row2{
+        padding: 0 126px ;
+    }
+    .header-row3{
+        padding: 0 126px ;
+    }
+ }
+
+
+
+
+

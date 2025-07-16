@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 208px 126px 0 126px;
+    padding: 20px 126px 0 126px;
 
     .banner{
         padding-bottom: 40px;
@@ -34,7 +34,7 @@
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  z-index: 3;
+  z-index: 2;
 color: var(--Color-Text-02, #3E3E3E);
 text-align: center;
 
@@ -64,7 +64,7 @@ white-space: nowrap;
       width: 100%;
     }
     .mini-banner1{
-      padding-right: 23px !important;
+      padding-right: 23px;
     }
     .mini-banner2{
       padding-left: 23px !important;
@@ -107,10 +107,11 @@ white-space: nowrap;
   width: 100%;
   background-color: #fff;
   border-radius: 20px;
-border: 1px solid var(--Greys-Colors-06, #F2F2F2);
+  border: 1px solid var(--Greys-Colors-06, #F2F2F2);
   overflow: hidden;
   transition: transform 0.3s ease;
   padding: 10px 10px 14px;
+  width: calc(20% - 16px);
 }
 
 .card-wrapper:hover {
@@ -255,10 +256,18 @@ line-height: normal;}
   }
 }
 .hot-voucher{
-  margin-top: 28px;
-  margin-bottom: 40px;
-  img{
-    width: 100%;
+  display: flex;
+  gap: 36px;
+  padding-bottom: 40px;
+  .banner-index2{
+    img{
+
+    }
+  }
+  .product-wrapper{
+    display: flex;
+    gap: 24px;
+    height: 80%;
   }
 }
 .column-of-product{
@@ -413,3 +422,353 @@ line-height: normal;
   }
 }
 }
+// Medium devices (tablets, 768px and up)
+@media (max-width:991.98px) { 
+.main-wrapper{
+    padding: 20px 16px 0px 16px;
+    .banner {
+      height: 500px;
+
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 85% center;
+        border-radius: 30px;
+      }
+    }
+.nut {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.nut > div:nth-child(1),.nut > div:nth-child(2),.nut > div:nth-child(3) {
+  margin-left: 0px;
+
+}
+  .nut-title{
+    white-space: wrap !important;
+  }
+.nut > div:nth-child(4),.nut > div:nth-child(5) {
+  margin-left: 0px;
+  margin-top: 0px;
+
+}
+.mnbn1{
+  width: 100%;
+}
+.mini-banner1{
+  width: 100%;
+  padding: 0 !important;
+}
+.mini-banner2{
+  display: none;
+}
+.group-button{
+  justify-content: center;
+}
+.group-button>div{
+  button{
+        padding: 6px 10px 6px 10px;
+  }
+}
+.group-button>div:nth-child(4),.group-button>div:nth-child(5){
+  display: none;
+}
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+
+  .card-wrapper {
+    width: calc(50% - 10px); // trừ khoảng cách gap
+  }
+}
+.banner2{
+  height: 190.926px;
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 19.416px;
+    object-position: left;
+  }
+}
+.mini-banner-title{
+  h2{
+    font-size: 20px;
+  }
+}
+.mini-banner-title-right{
+  a{
+      display: none;
+  }
+}
+.hot-voucher{
+  flex-direction: column;
+  .banner-index2{
+    img{
+      border-radius: 30px;
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+  }
+      .product-wrapper>div:nth-child(3){
+      display: block ;
+    }
+}
+.column-of-product{
+  flex-direction: column;
+  gap: 25px;
+}
+.news{
+  flex-direction: column;
+}
+.banner3{
+  img{
+    object-position: left;
+    height: 166px;
+    border-radius: 16.881px;
+    object-fit: cover;
+  }
+}
+  }
+ }
+ //dien thoai quay ngang
+@media (max-width: 767.98px) { 
+  .main-wrapper{
+    padding: 20px 16px 0px 16px;
+    .banner {
+      height: 500px;
+
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 85% center;
+        border-radius: 30px;
+      }
+    }
+.nut {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.nut > div:nth-child(1),.nut > div:nth-child(2),.nut > div:nth-child(3) {
+  margin-left: 50px;
+}
+/* Đẩy 2 nút hàng dưới ra giữa */
+.nut > div:nth-child(4) {
+  margin-left: -30px;
+  margin-top: 30px;
+  grid-column: 2 / 3;
+}
+.nut > div:nth-child(5) {
+    margin-left: -30px;
+    margin-top: 30px;
+  grid-column: 3 / 4;
+}
+.mnbn1{
+  width: 100%;
+}
+.mini-banner1{
+  width: 100%;
+  padding: 0 !important;
+}
+.mini-banner2{
+  display: none;
+}
+.group-button{
+  justify-content: center;
+}
+.group-button>div{
+  button{
+        padding: 6px 10px 6px 10px;
+  }
+}
+.group-button>div:nth-child(4),.group-button>div:nth-child(5){
+  display: none;
+}
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+
+  .card-wrapper {
+    width: calc(50% - 10px); // trừ khoảng cách gap
+  }
+}
+.banner2{
+  height: 190.926px;
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 19.416px;
+    object-position: left;
+  }
+}
+.mini-banner-title{
+  h2{
+    font-size: 20px;
+  }
+}
+.mini-banner-title-right{
+  a{
+      display: none;
+  }
+}
+.hot-voucher{
+  flex-direction: column;
+  .banner-index2{
+    img{
+      width: 100%;
+    height: 373px;
+    }
+  }
+      .product-wrapper>div:nth-child(3){
+      display: none ;
+    }
+}
+.column-of-product{
+  flex-direction: column;
+  gap: 25px;
+}
+.news{
+  flex-direction: column;
+}
+.banner3{
+  img{
+    object-position: left;
+    height: 166px;
+    border-radius: 16.881px;
+    object-fit: cover;
+  }
+}
+  }
+ }
+
+//dien thoai sieu be
+@media (max-width: 575.98px) { 
+  .main-wrapper{
+    padding: 20px 16px 0px 16px;
+    .banner {
+      height: 500px;
+
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 85% center;
+        border-radius: 30px;
+      }
+    }
+.nut {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.nut > div:nth-child(1),.nut > div:nth-child(2),.nut > div:nth-child(3) {
+  margin-left: 50px;
+}
+/* Đẩy 2 nút hàng dưới ra giữa */
+.nut > div:nth-child(4) {
+  margin-left: -30px;
+  margin-top: 30px;
+  grid-column: 2 / 3;
+}
+.nut > div:nth-child(5) {
+    margin-left: -30px;
+    margin-top: 30px;
+  grid-column: 3 / 4;
+}
+.mnbn1{
+  width: 100%;
+}
+.mini-banner1{
+  width: 100%;
+  padding: 0 !important;
+}
+.mini-banner2{
+  display: none;
+}
+.group-button{
+  justify-content: center;
+}
+.group-button>div{
+  button{
+        padding: 6px 10px 6px 10px;
+  }
+}
+.group-button>div:nth-child(4),.group-button>div:nth-child(5){
+  display: none;
+}
+.all-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+
+  .card-wrapper {
+    width: calc(50% - 10px); // trừ khoảng cách gap
+  }
+}
+.banner2{
+  height: 190.926px;
+  img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 19.416px;
+    object-position: left;
+  }
+}
+.mini-banner-title{
+  h2{
+    font-size: 20px;
+  }
+}
+.mini-banner-title-right{
+  a{
+      display: none;
+  }
+}
+.hot-voucher{
+  flex-direction: column;
+  .banner-index2{
+    img{
+      width: 100%;
+    height: 373px;
+    }
+  }
+      .product-wrapper>div:nth-child(3){
+      display: none ;
+    }
+}
+.column-of-product{
+  flex-direction: column;
+  gap: 25px;
+}
+.news{
+  flex-direction: column;
+}
+.banner3{
+  img{
+    object-position: left;
+    height: 166px;
+    border-radius: 16.881px;
+    object-fit: cover;
+  }
+}
+  }
+ }
+

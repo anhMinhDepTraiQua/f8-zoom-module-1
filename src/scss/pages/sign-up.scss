@@ -127,3 +127,42 @@ padding-bottom: 21px;
 }
     }
 }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+        .logup-form{
+        width: 100% !important;
+                justify-content: center;
+    }
+    .logup-left-side{
+        display: none !important;
+    }
+    .logup-right-side{
+        width: 70% !important;
+    }
+ }
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+        .logup-form{
+        width: 100% !important;
+        justify-content: center;
+    }
+    .logup-left-side{
+        display: none !important;
+    }
+    .logup-right-side{
+        width: 80% !important;
+    }
+ }
+  // `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .logup-form{
+        width: 100% !important;
+    }
+    .logup-left-side{
+        display: none !important;
+    }
+    .logup-right-side{
+        width: 100% !important;
+    }
+ }

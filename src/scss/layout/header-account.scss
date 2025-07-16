@@ -1,5 +1,4 @@
 .header-account-wrapper {
-    position: fixed;
     z-index: 9999;
     width: 100%;
     .header-account-row2 {
@@ -12,17 +11,19 @@
         padding: 0 126px;
         align-items: center;
         justify-content: space-between;
-
+        .row2-mobile-header{
+            display: none;
+        }
         .row2-left {
             .logo a {
-                width: 100px;
                 display: flex;
-                width: 200px;
+                width: 300px !important;
                 height: 46.263px;
             }
         }
 
         .row2-right {
+            z-index: 50;
             background-color: #FFF;
             padding: 7px 15px;
             margin-left: 150px;
@@ -40,14 +41,14 @@
                     outline: none;
                     font-size: 14px;
                     color: var(--Greys-Colors-07, #000);
-                    font-family: 'Quicksand';
+                    font-family: 'Quicksand',sans-serif;
                     display: flex;
                     align-items: center;
                     border-left: 2px solid var(--Secondary-Colors-12, #FFF4F1);
                     padding-left: 10px;
 
                     input {
-                        width: 270px;
+                        width: 270px !important;
                         border: none;
                         align-items: center;
 
@@ -116,7 +117,12 @@
         padding: 0 126px;
         align-items: center;
         justify-content: space-between;
-
+        .row3-mobile-header{
+            display: none;
+        }
+        .drawer-header-mobile-wrapper{
+            display: none;
+        }
         .row3-left {
             display: flex;
             gap: 20px;
@@ -136,3 +142,197 @@
         }
     }
 }
+//dien thoai sieu nho
+@media (max-width:575.98px) {
+    .header-account-row2{
+        z-index: 0  !important;
+        padding: 0 15px !important;
+        height: 52px !important;
+        .row2-mobile-header{
+            width: 100%;
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            .row2-mobile-hotline{
+                display: flex;
+                align-items: center;
+                color: #FFF;
+                gap: 8px;
+            }
+        }
+        .row2-left{
+            display: none;
+        }
+        .row2-right{
+            display: none !important;
+        }
+        .taikhoan{
+            display: none;
+        }
+    }
+    .header-account-row3{
+        position: relative;
+        width: 100% !important;
+
+        padding: 0 12px !important;
+        .drawer-header-mobile-wrapper{
+            display: block !important;
+        }
+        .drawer-header-mobile{
+            display: block !important;
+        }
+        #drawer-header-mobile:checked+.drawer-header-mobile-wrapper{
+                left: 0
+        }
+        .row3-mobile-header{
+            width: 100%;
+            display: flex !important;
+            justify-content: space-between ;
+            .icon-header-mobile{
+                display: flex;
+                align-items: center;
+                gap: 12px
+            }
+        }
+        .drawer-header-mobile-wrapper{
+            position: fixed;
+            top: 0px;
+            left: -575.99px;
+            width: 575.99px;
+            height: 1700px;
+            background-color: rgba(144, 144, 144, 0.8);
+            z-index: 999999999;
+            .drawer-header-mobile{
+
+                width: 341px;
+                height: 100%;
+                background-color: #FFF;
+                .drawer-title{
+                    padding: 28.27px 23px 21.07px 27px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #F2F2F2;
+                    .drawer-logo{
+                            width: 140px;
+                            height: 33.665px;
+                            object-fit: cover;
+                        img{
+                            width: 100%;
+                            height: 100%;
+
+                        }
+                    }
+                }
+                .drawer-content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    padding: 37px 21.54px 0px 27px;
+                    .single-row-content{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .row3-left{
+            display: none !important;
+        }
+        .row3-right{
+            display: none !important;
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .header-account-wrapper{
+        .header-account-row2{
+            padding: 0 10px;
+            .row2-left{
+                .logo{
+                    a{      
+                            display: flex;
+                            align-items: center;
+                            width: 300px;
+                            height: 33px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+            .row2-right{
+                margin-left: -150px;
+                .search-form{
+                    .search-input{
+                        input{
+                            width: 100px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .header-account-row3{
+            padding: 0 10px;            
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+        .header-account-wrapper{
+        .header-account-row2{
+            padding: 0 50px;
+            .row2-left{
+
+            }
+            .row2-right{
+                margin-left: -100px;
+                .search-form{
+                    .search-input{
+                        input{
+                            width: 100px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .header-account-row3{
+            padding: 0 50px;            
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .header-account-wrapper{
+        .header-account-row2{
+            padding: 0 100px;
+            .row2-left{
+
+            }
+            .row2-right{
+                margin-left: -50px;
+                .search-form{
+                    .search-input{
+                        input{
+                            width: 250px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .header-account-row3{
+            padding: 0 100px;            
+        }
+    }
+ }
+
