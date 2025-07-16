@@ -149,6 +149,46 @@
         padding: 0 126px;
         align-items: center;
         justify-content: space-between;
+            .row1-tai-khoan-dropdown {
+            position: absolute;
+            top: 39px;
+            right: 10px;
+            background: var(--Greys-Colors-01, #FFF);
+            border: 1px solid var(--Greys-Colors-04, #D9D9D9);
+            border-radius: 7px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            display: none;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                :hover,
+                :hover a {
+                    border-radius: 7px;
+                    color: #FFF;
+                    background: var(--Greys-Colors-02, #ED5A25);
+                    cursor: pointer;
+                    transition: all 0.1s ease;
+                }
+
+                li {
+                                    overflow: hidden;
+                    padding: 10px 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: var(--Greys-Colors-07, #000);
+                    }
+                }
+            }
+        }
+        #tai-khoan1:checked+.row1-tai-khoan-dropdown {
+            display: block;
+        }
         .drawer-header-mobile-wrapper{
             display: none;
         }
